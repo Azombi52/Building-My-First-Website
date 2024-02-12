@@ -1,0 +1,283 @@
+body {
+    background-color: #F5EEE6;
+    color: #E6A4B4;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Navbar Styling Starts Here*/
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #F3D7CA;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.my-name {
+    font-size: 25px;
+    font-family: source serif pro;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.topnav a {
+    font-size: 16px;
+    color: #E6A4B4;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.topnav a:hover {
+    color: #F3D7CA;
+    text-decoration: underline;
+}
+
+.topnav a:active {
+    color: #B66969;
+    text-decoration: none;
+}
+/*Navbar Styling Ends Here*/
+
+/*Page One Styling Starts Here*/
+.movie-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.child-container {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.main-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.smaug-destroyer {
+    width: 1312;
+    border-radius: 6px;
+}
+/*Page One Styling Ends Here*/
+
+/*Page Two Styling Starts Here*/
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+fieldset {
+    width: 480px;
+    height: 709px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 48px;
+    border: 1px solid #F3D7CA;
+}
+
+legend {
+    font-size: 48px;
+}
+
+.first-name,
+.last-name,
+.email-address,
+.message-area {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label[for="firstName"],
+[for="lastName"],
+[for="email"] {
+    font-size: 16px;
+}
+
+input[type="text"],
+[type="email"]{
+    padding: 16px;
+}
+
+textarea {
+    height: 96px;
+}
+
+label[for="newsletter"] {
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.checkbox-newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #E6A4B4;
+    background-color: white;
+    border: solid 1px #E6A4B4;
+    border-radius: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 484px;
+}
+
+button:hover {
+    background-color: #F3D7CA;
+    color: white;
+    border: none;
+}
+/*Page Two Styling Ends Here*/
+
+/*Page Three Styling Starts Here*/
+.title-page-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+li a {
+    font-size: 24px;
+    color: #B66969;
+}
+
+li a:hover {
+    color: #E6A4B4;
+}
+/*Page Three Styling Ends Here*/
+
+/*Page Four Styling Starts Here*/
+.title-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.gallery-one-images {
+    width: 800px;
+    height: 600px;
+}
+
+.gallery-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.gallery-two-images {
+    width: 1024px;
+    height: 800px;
+}
+
+.gandalf-grey,
+.bilbo-baggins,
+.elvish-prince,
+.smaug-the-destroyer,
+.she-elf {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+a {
+    font-size: 16px;
+    color: #B66969;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #FF0000;
+}
+/*Page Four Styling Ends Here*/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--Nav bar section-->
+        <div class="header">
+            <div class="header-container">
+                <div class="my-name">
+                    Azombi
+                </div>
+                <div class="topnav">
+                    <a class="active" href="/Page1.html">Page1</a>
+                    <a class="active" href="/Page2.html">Page2</a>
+                    <a class="active" href="/Page3.html">Page3</a>
+                    <a class="active" href="/Page4.html">Page4</a>
+                </div>
+            </div>
+        </div>
+
+        <!--HTML Form-->
+        <form action="/form-handling-url" method="post">
+            <Fieldset>
+                <legend>Sign Up</legend>
+
+                <div class="first-name">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="last-name">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastNmae" name="last_name">
+                </div>
+
+                <div class="email-address">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+
+                <div class="message-area">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div class="checkbox-newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Sign up for the newsletter</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </Fieldset>
+        </form>
+
+    </body>
+</html>
